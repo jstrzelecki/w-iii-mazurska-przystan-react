@@ -63,3 +63,58 @@ Zadania:
 - Każdy kod musi przejść przez **Pull Request**, który zatwierdza druga osoba z pary.
 - Po każdym `git push` sprawdźcie, czy na Discordzie (kanał #feed-github) pojawiło się powiadomienie.
 --------------
+
+
+
+---
+## :dart: Cel projektu:
+Stworzenie responsywnego kalkulatora wynajmu w React.js, wykorzystując:
+- formularze,
+- `useState`
+-  Flexbox.
+
+
+##:warning: Wasze zadania na „Sprint 1” (dzisiaj):
+- Praca: pracujecie w parach
+- Repozytorium: Jedna osoba tworzy repo na GitHubie w oparciu o moje *repo template* i zaprasza partnera (Collaborator).
+- Webhook: Skonfigurujcie połączenie z kanałem #github-feed, abyśmy widzieli każdy Wasz commit.
+- Setup: Zapoznajcie się z plikiem README.md dostępnym w repo.
+
+## :construction_site: Issues: Rozpiszcie zadania na GitHubie – podzielcie się na „UI Master” i „Logic Wizard”.
+
+### Jak to połączyć w GitHubie?
+- `Issues`: To opisy konkretnych zadań (np. „Stworzyć formularz we Flexboxie”).
+- `Projects` (Kanban): To wizualna tablica z kolumnami (np. Todo, In Progress i Done).
+- Przeciągacie swoje Issues między kolumnami.
+
+
+### :performing_arts: Przykładowy podział ról w zespole (na Kanbanie)
+Aby praca szła sprawnie, warto, żeby każdy uczeń wiedział, za co odpowiada na tablicy:
+
+#### :art: UI Master (User Interface)
+Jego zadania na Kanbanie:
+- Przygotowanie struktury JSX (inputy, labele, selecty).
+- Stylowanie we Flexboxie (wyśrodkowanie, responsywność).
+- Obsługa wizualna stanów (np. zmiana koloru przycisku, gdy jest disabled).
+- Cel: Aplikacja musi wyglądać profesjonalnie i nie rozjeżdżać się na telefonie.
+
+#### :man_mage: Logic Wizard (Business Logic)
+Jego zadania na Kanbanie:
+- Obsługa hooków useState.
+- Napisanie funkcji obliczającej cenę (np. calculateTotal).
+- Walidacja pól (czy imię nie jest puste?).
+- Cel: Aplikacja musi poprawnie liczyć pieniądze i reagować na działania użytkownika.
+
+
+:warning: Zasada Zero Tolerancji:
+- Brak pracy na main! Każda zmiana musi przejść przez Pull Request i zostać zatwierdzona przez partnera, czli pracujecie na oddzielnych gałęziach.
+- Jak pracować w grupie na GitHubie? https://tie9-olsztyn-programmers.github.io/docs/Git%20i%20Github/GItHub%20w%20zespole
+
+Good luck & happy coding! :computer::ocean:
+
+
+
+
+
+
+
